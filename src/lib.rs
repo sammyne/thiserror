@@ -176,6 +176,10 @@
 //!
 //!   [`anyhow`]: https://github.com/dtolnay/anyhow
 
+#![no_std]
+
+extern crate sgx_tstd as std;
+
 mod aserror;
 mod display;
 
