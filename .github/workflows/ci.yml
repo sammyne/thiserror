@@ -2,7 +2,9 @@ name: CI
 
 on:
   push:
+    branches-ignore: ['rsgx**']
   pull_request:
+    branches-ignore: ['rsgx**']
   schedule: [cron: "40 1 * * *"]
 
 jobs:
